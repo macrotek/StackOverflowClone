@@ -17,6 +17,6 @@ namespace StackOverflowProject.DomainModels
         public string PasswordHash { get; set; }
         public string Name { get; set; }
         public string Mobile { get; set; }
-        public string IsAdmin { get; set; }
+        public bool IsAdmin { get; set; }
     }
 }
