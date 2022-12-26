@@ -1,15 +1,2 @@
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\obj\Debug\StackOverflowProject.Repositories.csprojAssemblyReference.cache
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\obj\Debug\StackOverflowProject.Repositories.csproj.CoreCompileInputs.cache
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\StackOverflowProject.Repositories.dll.config
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\StackOverflowProject.Repositories.dll
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\StackOverflowProject.Repositories.pdb
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\EntityFramework.dll
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\EntityFramework.SqlServer.dll
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\StackOverflowProject.DomainModels.dll
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\StackOverflowProject.DomainModels.pdb
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\StackOverflowProject.DomainModels.dll.config
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\EntityFramework.xml
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\bin\Debug\EntityFramework.SqlServer.xml
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\obj\Debug\StackOverflowProject.Repositories.csproj.CopyComplete
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\obj\Debug\StackOverflowProject.Repositories.dll
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.Repositories\obj\Debug\StackOverflowProject.Repositories.pdb

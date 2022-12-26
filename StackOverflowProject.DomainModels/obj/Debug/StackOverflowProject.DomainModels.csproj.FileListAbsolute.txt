@@ -5,6 +5,7 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\bin\Debug\
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\bin\Debug\EntityFramework.SqlServer.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\bin\Debug\EntityFramework.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\obj\Debug\StackOverflowProject.DomainModels.csprojAssemblyReference.cache
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\obj\Debug\StackOverflowProject.DomainModels.csproj.CoreCompileInputs.cache
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\obj\Debug\StackOverflowProject.DomainModels.csproj.CopyComplete
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\obj\Debug\StackOverflowProject.DomainModels.dll
