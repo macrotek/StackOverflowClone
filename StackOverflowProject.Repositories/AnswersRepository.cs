@@ -26,7 +26,7 @@ namespace StackOverflowProject.Repositories
         {
             db = new StackOverflowDatabaseDbContext();
             qr = new QuestionsRepository();
-            vr = new IVotesRepository();
+            vr = new VotesRepository();
         }
         public void InsertAnswer(Answer a)
         {
@@ -43,5 +43,39 @@ namespace StackOverflowProject.Repositories
                 db.SaveChanges();
             }
         }
+        public void UpdateAnswerVotesCount(int aid, int uid, int value)
+        {
+            Answer ans = db.Answers.Where(temp => temp.AnswerID == aid).FirstOrDefault();
+
+            if(ans != null)
+            {
+                ans.VotesCount += value;
+                db.SaveChanges();
+                qr.UpdateQuestionVotesCount(ans.QuestionID, value);
+                vr.UpdateVote(aid, uid, value);
+            }
+        }
+        public void DeleteAnswer(int aid)
+        {
+            Answer ans = db.Answers.Where(temp => temp.AnswerID == aid).FirstOrDefault();
+
+            if (ans != null)
+            {
+                db.Answers.Remove(ans);
+                db.SaveChanges();
+                qr.UpdateQuestionAnswerCount(ans.QuestionID, -1);
+            }
+        }
+        public List<Answer> GetAnswersByQuestionID(int qid)
+        {
+            List<Answer> ans = db.Answers.Where(temp => temp.QuestionID == qid).OrderByDescending(temp => temp.AnswerDateAndTime).ToList();
+            return ans;
+        }
+        public List<Answer> GetAnswersByAnswerID(int aid)
+        {
+            List<Answer> ans = db.Answers.Where(temp => temp.AnswerID == aid).ToList();
+            return ans;
+        }
+
     }
 }
