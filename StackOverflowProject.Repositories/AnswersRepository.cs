@@ -20,6 +20,7 @@ namespace StackOverflowProject.Repositories
     {
         StackOverflowDatabaseDbContext db;
         IQuestionsRepository qr;
+
         IVotesRepository vr;
 
         public AnswersRepository()

@@ -51,7 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditUserDetailsViewModel.cs" />
+    <Compile Include="LoginViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterViewModel.cs" />
+    <Compile Include="UserViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -10,3 +10,9 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\obj\Debug\
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\obj\Debug\StackOverflowProject.ServiceLayer.csproj.CopyComplete
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\obj\Debug\StackOverflowProject.ServiceLayer.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\obj\Debug\StackOverflowProject.ServiceLayer.pdb
+G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\bin\Debug\StackOverflowProject.ServiceLayer.dll.config
+G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\bin\Debug\EntityFramework.SqlServer.dll
+G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\bin\Debug\StackOverflowProject.Repositories.dll
+G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\bin\Debug\StackOverflowProject.Repositories.pdb
+G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\bin\Debug\StackOverflowProject.Repositories.dll.config
+G:\NETPrograms\StackOverflowProject\StackOverflowProject.ServiceLayer\bin\Debug\EntityFramework.SqlServer.xml
