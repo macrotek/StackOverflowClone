@@ -34,6 +34,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.10.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Collection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=e57c3f0a3d6646db, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.Collection.7.0.1\lib\net461\AutoMapper.Collection.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Collection.LinqToSQL, Version=7.0.0.0, Culture=neutral, PublicKeyToken=e57c3f0a3d6646db, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.Collection.LinqToSQL.7.0.1\lib\net461\AutoMapper.Collection.LinqToSQL.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Extensions.ExpressionMapping, Version=1.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.Extensions.ExpressionMapping.1.0.0\lib\net45\AutoMapper.Extensions.ExpressionMapping.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -43,6 +55,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,7 +64,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MapperExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SHA256HashGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StackOverflowProject.DomainModels\StackOverflowProject.DomainModels.csproj">
@@ -61,6 +76,10 @@
     <ProjectReference Include="..\StackOverflowProject.Repositories\StackOverflowProject.Repositories.csproj">
       <Project>{a67f180a-65dd-47d9-8e59-b4e55292d4d7}</Project>
       <Name>StackOverflowProject.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StackOverflowProject.ViewModels\StackOverflowProject.ViewModels.csproj">
+      <Project>{2a8047a8-6b6c-4675-a084-30f8735cfd80}</Project>
+      <Name>StackOverflowProject.ViewModels</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
