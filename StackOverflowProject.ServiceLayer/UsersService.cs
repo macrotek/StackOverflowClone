@@ -46,5 +46,17 @@ namespace StackOverflowProject.ServiceLayer
             User u = mapper.Map<EditUserDetailsViewModel, User>(uvm);
             ur.UpdateUserDetails(u);
         }
+        public void UpdateUserPassword(EditUserPasswordViewModel uvm)
+        {
+            var config = new MapperConfiguration(cfg => { cfg.CreateMap<EditUserPasswordViewModel, User>(); cfg.IgnoreUnmapped(); });
+            IMapper mapper = config.CreateMapper();
+            User u = mapper.Map<EditUserPasswordViewModel, User>(uvm);
+            u.PasswordHash = SHA256HashGenerator.GenerateHash(uvm.Password);
+            ur.UpdateUserPassword(u);
+        }
+        public void DeleteUser(int uid)
+        {
+            ur.DeleteUser(uid);
+        }
     }
 }
