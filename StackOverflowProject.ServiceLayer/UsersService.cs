@@ -21,7 +21,7 @@ namespace StackOverflowProject.ServiceLayer
         UserViewModel GetUsersByEmail(string Email);
         UserViewModel GetUsersByUserID(int UserID);
     }
-    public class UsersService:IUsersService
+    public class UsersService : IUsersService
     {
         IUsersRepository ur;
 
@@ -39,7 +39,7 @@ namespace StackOverflowProject.ServiceLayer
             int uid = ur.GetLatestUserID();
             return uid;
         }
-        public void UpdateUserDetails(EditAnswerViewModel uvm)
+        public void UpdateUserDetails(EditUserDetailsViewModel uvm)
         {
             var config = new MapperConfiguration(cfg => { cfg.CreateMap<EditUserDetailsViewModel, User>(); cfg.IgnoreUnmapped(); });
             IMapper mapper = config.CreateMapper();
@@ -50,6 +50,7 @@ namespace StackOverflowProject.ServiceLayer
         {
             var config = new MapperConfiguration(cfg => { cfg.CreateMap<EditUserPasswordViewModel, User>(); cfg.IgnoreUnmapped(); });
             IMapper mapper = config.CreateMapper();
+
             User u = mapper.Map<EditUserPasswordViewModel, User>(uvm);
             u.PasswordHash = SHA256HashGenerator.GenerateHash(uvm.Password);
             ur.UpdateUserPassword(u);
@@ -57,6 +58,50 @@ namespace StackOverflowProject.ServiceLayer
         public void DeleteUser(int uid)
         {
             ur.DeleteUser(uid);
+        }
+        public List<UserViewModel> GetUsers()
+        {
+            List<User> u = ur.GetUsers();
+            var config = new MapperConfiguration(cfg => { cfg.CreateMap<User, UserViewModel>(); cfg.IgnoreUnmapped(); });
+            IMapper mapper = config.CreateMapper();
+            List<UserViewModel> uvm = mapper.Map<List<User>, List<UserViewModel>>(u);
+            return uvm;
+        }
+        public UserViewModel GetUsersByEmailAndPassword( string Email, string Password)
+        {
+            User u = ur.GetUsersByEmailAndPassword(Email, SHA256HashGenerator.GenerateHash(Password)).FirstOrDefault();
+            UserViewModel uvm = null;
+            if (u != null)
+            {
+                var config = new MapperConfiguration(cfg => { cfg.CreateMap<User, UserViewModel>(); cfg.IgnoreUnmapped(); });
+                IMapper mapper = config.CreateMapper();
+                uvm = mapper.Map<User, UserViewModel>(u);
+            }
+                return uvm;
+        }
+        public UserViewModel GetUsersByEmail(string Email)
+        {
+            User u = ur.GetUsersByEmail(Email).FirstOrDefault();
+            UserViewModel uvm = null;
+            if (u != null)
+            {
+                var config = new MapperConfiguration(cfg => { cfg.CreateMap<User, UserViewModel>(); cfg.IgnoreUnmapped(); });
+                IMapper mapper = config.CreateMapper();
+                uvm = mapper.Map<User, UserViewModel>(u);
+            }
+            return uvm;
+        }
+        public UserViewModel GetUsersByUserID(int UserID)
+        {
+            User u = ur.GetUsersByUserID(UserID).FirstOrDefault();
+            UserViewModel uvm = null;
+            if (u != null)
+            {
+                var config = new MapperConfiguration(cfg => { cfg.CreateMap<User, UserViewModel>(); cfg.IgnoreUnmapped(); });
+                IMapper mapper = config.CreateMapper();
+                uvm = mapper.Map<User, UserViewModel>(u);
+            }
+            return uvm;
         }
     }
 }
