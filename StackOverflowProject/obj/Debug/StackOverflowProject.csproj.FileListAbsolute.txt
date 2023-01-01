@@ -53,6 +53,8 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\Microsoft.CodeDom.P
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\Microsoft.Web.Infrastructure.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\Newtonsoft.Json.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.DomainModels.dll
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.ServiceLayer.dll
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.ViewModels.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Net.Http.Formatting.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Helpers.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Http.dll
@@ -62,8 +64,14 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Razor.dl
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Webpages.Deployment.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Webpages.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Webpages.Razor.dll
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.Repositories.dll
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\AutoMapper.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.DomainModels.pdb
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.DomainModels.dll.config
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.ServiceLayer.pdb
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.ServiceLayer.dll.config
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.ViewModels.pdb
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.ViewModels.dll.config
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\EntityFramework.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\EntityFramework.SqlServer.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Razor.xml
@@ -77,6 +85,9 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Net.Http.For
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Http.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Http.WebHost.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.Repositories.pdb
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.Repositories.dll.config
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\AutoMapper.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\obj\Debug\StackOverflowProject.csprojAssemblyReference.cache
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\obj\Debug\StackOverflowProject.csproj.CoreCompileInputs.cache
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\obj\Debug\StackOverflowProject.csproj.CopyComplete
