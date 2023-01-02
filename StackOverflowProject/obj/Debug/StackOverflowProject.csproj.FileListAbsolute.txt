@@ -47,6 +47,7 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\roslyn\vbc.exe.conf
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\roslyn\vbc.rsp
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\roslyn\VBCSCompiler.exe
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\roslyn\VBCSCompiler.exe.config
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\Antlr3.Runtime.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\EntityFramework.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\EntityFramework.SqlServer.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -60,10 +61,12 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Helpers.
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Http.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Http.WebHost.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Mvc.dll
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Optimization.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Razor.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Webpages.Deployment.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Webpages.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Webpages.Razor.dll
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\WebGrease.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.Repositories.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\AutoMapper.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.DomainModels.pdb
@@ -72,8 +75,10 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProjec
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.ServiceLayer.dll.config
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.ViewModels.pdb
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\StackOverflowProject.ViewModels.dll.config
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\Antlr3.Runtime.pdb
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\EntityFramework.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\EntityFramework.SqlServer.xml
+G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Optimization.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Razor.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Webpages.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject\bin\System.Web.Webpages.Deployment.xml

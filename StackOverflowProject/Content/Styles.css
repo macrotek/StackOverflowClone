@@ -1,2 +1,12 @@
-﻿body {
+﻿.navbar
+{
+    background-color:#046475;
+}
+#active
+{
+    color:yellow;
+}
+.navbar a:link, .navbar a:visited
+{
+    color: white;
 }

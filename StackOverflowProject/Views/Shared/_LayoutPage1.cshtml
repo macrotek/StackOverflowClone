@@ -14,7 +14,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-sm text-light navbar-light">
             <a class="navbar-brand" href="#">StackOverflow</a>
-        </nav>
+        
         <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavBar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,11 +44,27 @@
                         <a class="nav-link" href="/account/register">Register</a>
                     </li>
                 }
+                @if (Session["CurrentUserName"] != null)
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            <img  src="~/Images/user.png" width="20px"/>
+                        </a>
+                        <div class="dropdown-menu bg-info">
+                            <a class="dropdown-item" href="/account/logout">Logout</a>
+                            <a class="dropdown-item" href="/account/changeprofile">Change Profile</a>
+                            <a class="dropdown-item" href="/account/changepassword">Change Password</a>
+                        </div>
+                    </li>
+                }
             </ul>
         </div>
-        <div>
+                <form class="form-check-inline" action="/home/search">
+                    <input type="search" class="form-control mr-sm-2" style="width:150px" placeholder="Search" name="str"/>
+                    <button class="btn btn-success" >Search</button>
+                </form>
+        </nav>
             @RenderBody()
-        </div>
     </div>
 </body>
 </html>
