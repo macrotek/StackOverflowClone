@@ -1,1 +1,34 @@
-﻿<h1>Hello</h1>
+﻿@model List<StackOverflowProject.ViewModels.QuestionViewModel>
+@{ 
+    ViewBag.Title="Home";
+}
+<div class="row">
+    <div class="col-sm-12">
+        <div class="jumbotron">
+            <h1>Learn, Share And Build Yourself..!</h1>
+            <h3>Practice makes man perfect - Just add atleast one github commit on a day.</h3>
+            <p class="lead">Join the world's largest developer community here.</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <table class="table">
+            @foreach(var item in Model)
+            {
+            <tr>
+                <td><span class="badge">@item.VotesCount</span> Votes</td>
+                <td><span class="badge">@item.AnswersCount</span>Answers</td>
+                <td><span class="badge">@item.ViewsCount</span>Views</td>
+                <td>
+                    @item.QuestionName<br />
+                    @item.Category.CategoryName
+                </td>
+                <td>@item.User.Name</td>
+                <td>@item.QuestionDateAndTime</td>
+            </tr>
+            }
+        </table>
+    </div>
+</div>

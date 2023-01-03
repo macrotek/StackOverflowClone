@@ -10,3 +10,16 @@
 {
     color: white;
 }
+.navbar a:hover
+{
+    color: #0dedd1;
+    text-decoration:underline;
+}
+.dropdown-menu a:hover
+{
+    color:black;
+}
+.hidden
+{
+    display:none;
+}
