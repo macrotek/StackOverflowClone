@@ -17,18 +17,15 @@
         <table class="table">
             @foreach(var item in Model)
             {
-            <tr>
-                <td><span class="badge">@item.VotesCount</span> Votes</td>
-                <td><span class="badge">@item.AnswersCount</span>Answers</td>
-                <td><span class="badge">@item.ViewsCount</span>Views</td>
-                <td>
-                    @item.QuestionName<br />
-                    @item.Category.CategoryName
-                </td>
-                <td>@item.User.Name</td>
-                <td>@item.QuestionDateAndTime</td>
-            </tr>
+                Html.RenderPartial("Question", item);
             }
         </table>
+        @if(Session["CurrentUserName"] != null)
+        {
+            <a href="/questions/create" class="btn btn-primary"> Add Question</a>
+        }
     </div>
 </div>
+<script>
+    $("a[href='/home/index']").attr("id", "active");
+</script>

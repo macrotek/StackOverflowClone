@@ -5,6 +5,7 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\bin\Debug\En
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\bin\Debug\EntityFramework.SqlServer.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\bin\Debug\EntityFramework.xml
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\bin\Debug\EntityFramework.SqlServer.xml
+G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\obj\Debug\StackOverflowProject.ViewModels.csprojAssemblyReference.cache
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\obj\Debug\StackOverflowProject.ViewModels.csproj.CoreCompileInputs.cache
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\obj\Debug\StackOverflowProject.ViewModels.csproj.CopyComplete
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\obj\Debug\StackOverflowProject.ViewModels.dll

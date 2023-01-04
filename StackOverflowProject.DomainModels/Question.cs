@@ -18,7 +18,7 @@ namespace StackOverflowProject.DomainModels
         public int UserID { get; set; }
         public int CategoryID { get; set; }
         public int VotesCount { get; set; }
-        public int AnsewrsCount { get; set; }
+        public int AnswersCount { get; set; }
         public int ViewsCount { get; set; }
 
         [ForeignKey("UserID")]
