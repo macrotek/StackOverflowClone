@@ -157,6 +157,7 @@
     <Content Include="Content\Styles.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\down-empty.png" />
+    <Content Include="Images\Stack.png" />
     <Content Include="Images\user.png" />
     <Content Include="Images\red-down.png" />
     <Content Include="Images\up-empty.png" />
@@ -307,6 +308,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Question.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
