@@ -14,6 +14,7 @@ namespace StackOverflowProject
 			var container = new UnityContainer();
 
             container.RegisterType<IQuestionService, QuestionService>();
+            container.RegisterType<IUsersService, UsersService>();
             DependencyResolver.SetResolver(new Unity.Mvc5.UnityDependencyResolver(container));
             GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(container);
         }

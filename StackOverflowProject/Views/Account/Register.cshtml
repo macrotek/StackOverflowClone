@@ -1,0 +1,14 @@
+﻿@{ 
+    ViewBag.Title = "Register";
+}
+<div class="row">
+    <div class="col-sm-12">
+        <h1>Registration</h1>
+        <form novalidate="novalidate" action="/account/register" method="post" class="needs-validation">
+
+        </form>
+    </div>
+</div>
+<script>
+    $(document).on("submit", "needs-validation", validate);
+</script>
