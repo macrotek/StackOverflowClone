@@ -9,3 +9,4 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\obj\Debug\
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\obj\Debug\StackOverflowProject.DomainModels.csproj.CopyComplete
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\obj\Debug\StackOverflowProject.DomainModels.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\obj\Debug\StackOverflowProject.DomainModels.pdb
+G:\NETPrograms\StackOverflowProject\StackOverflowProject.DomainModels\obj\Debug\StackOverflowProject.DomainModels.csprojAssemblyReference.cache
