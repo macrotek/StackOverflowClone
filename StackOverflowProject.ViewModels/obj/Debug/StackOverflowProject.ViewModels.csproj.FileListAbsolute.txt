@@ -9,4 +9,3 @@ G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\obj\Debug\St
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\obj\Debug\StackOverflowProject.ViewModels.csproj.CopyComplete
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\obj\Debug\StackOverflowProject.ViewModels.dll
 G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\obj\Debug\StackOverflowProject.ViewModels.pdb
-G:\NETPrograms\StackOverflowProject\StackOverflowProject.ViewModels\obj\Debug\StackOverflowProject.ViewModels.csprojAssemblyReference.cache
